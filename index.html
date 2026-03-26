@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outreach HQ — Volunteer Coordination Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <h1>OUTREACH <span class="accent">HQ</span></h1>
+      <p class="tagline">Coordinate. Mobilize. Win.</p>
+    </div>
+    <div class="header-right">
+      <nav>
+        <button class="nav-btn active" data-section="dashboard">Dashboard</button>
+        <button class="nav-btn" data-section="campaigns">Campaigns</button>
+        <button class="nav-btn" data-section="volunteers">Volunteers</button>
+        <button class="nav-btn" data-section="tasks">Tasks</button>
+        <button class="nav-btn" data-section="templates">Templates</button>
+      </nav>
+      <button id="theme-toggle" aria-label="Toggle theme">◑</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- DASHBOARD -->
+    <section id="dashboard" class="section active">
+      <h2>Dashboard</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number" id="stat-campaigns">0</span>
+          <span class="stat-label">Active Campaigns</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-volunteers">0</span>
+          <span class="stat-label">Volunteers</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-tasks-done">0</span>
+          <span class="stat-label">Tasks Completed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-tasks-total">0</span>
+          <span class="stat-label">Total Tasks</span>
+        </div>
+      </div>
+      <div class="dashboard-panels">
+        <div class="panel">
+          <h3>Outreach by Channel</h3>
+          <div id="channel-chart" class="bar-chart"></div>
+        </div>
+        <div class="panel">
+          <h3>Recent Activity</h3>
+          <ul id="activity-feed" class="activity-feed">
+            <li class="empty-state">No activity yet. Create a campaign to get started.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAMPAIGNS -->
+    <section id="campaigns" class="section">
+      <div class="section-header">
+        <h2>Campaigns</h2>
+        <button class="btn-primary" id="add-campaign-btn">+ New Campaign</button>
+      </div>
+      <div id="campaign-list" class="card-grid">
+        <div class="empty-state">No campaigns yet. Create one to start organizing.</div>
+      </div>
+
+      <!-- Campaign Modal -->
+      <div id="campaign-modal" class="modal hidden">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 id="campaign-modal-title">New Campaign</h3>
+            <button class="modal-close">&times;</button>
+          </div>
+          <form id="campaign-form">
+            <label>Campaign Name
+              <input type="text" id="campaign-name" required placeholder="e.g., Housing Rights Phone Bank">
+            </label>
+            <label>Description
+              <textarea id="campaign-desc" rows="3" placeholder="What is this campaign about?"></textarea>
+            </label>
+            <label>Target Goal
+              <input type="number" id="campaign-target" min="1" required placeholder="e.g., 500 contacts">
+            </label>
+            <label>Deadline
+              <input type="date" id="campaign-deadline" required>
+            </label>
+            <label>Channels
+              <div class="checkbox-group">
+                <label><input type="checkbox" value="email"> Email</label>
+                <label><input type="checkbox" value="sms"> SMS</label>
+                <label><input type="checkbox" value="social"> Social Media</label>
+                <label><input type="checkbox" value="phone"> Phone</label>
+              </div>
+            </label>
+            <div class="form-actions">
+              <button type="button" class="btn-secondary modal-close">Cancel</button>
+              <button type="submit" class="btn-primary">Save Campaign</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- VOLUNTEERS -->
+    <section id="volunteers" class="section">
+      <div class="section-header">
+        <h2>Volunteers</h2>
+        <button class="btn-primary" id="add-volunteer-btn">+ Add Volunteer</button>
+      </div>
+      <div id="volunteer-list" class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Channels</th>
+              <th>Assigned Campaign</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="volunteer-tbody">
+            <tr class="empty-state"><td colspan="5">No volunteers yet. Add one to start building your team.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Volunteer Modal -->
+      <div id="volunteer-modal" class="modal hidden">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 id="volunteer-modal-title">Add Volunteer</h3>
+            <button class="modal-close">&times;</button>
+          </div>
+          <form id="volunteer-form">
+            <label>Full Name
+              <input type="text" id="vol-name" required placeholder="e.g., Maria Santos">
+            </label>
+            <label>Email
+              <input type="email" id="vol-email" required placeholder="e.g., maria@example.com">
+            </label>
+            <label>Preferred Channels
+              <div class="checkbox-group">
+                <label><input type="checkbox" value="email"> Email</label>
+                <label><input type="checkbox" value="sms"> SMS</label>
+                <label><input type="checkbox" value="social"> Social Media</label>
+                <label><input type="checkbox" value="phone"> Phone</label>
+              </div>
+            </label>
+            <label>Assign to Campaign
+              <select id="vol-campaign">
+                <option value="">— None —</option>
+              </select>
+            </label>
+            <div class="form-actions">
+              <button type="button" class="btn-secondary modal-close">Cancel</button>
+              <button type="submit" class="btn-primary">Save Volunteer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- TASKS -->
+    <section id="tasks" class="section">
+      <div class="section-header">
+        <h2>Task Board</h2>
+        <button class="btn-primary" id="add-task-btn">+ New Task</button>
+      </div>
+      <div class="kanban">
+        <div class="kanban-col" data-status="todo">
+          <h3>To Do</h3>
+          <div class="kanban-items" id="kanban-todo"></div>
+        </div>
+        <div class="kanban-col" data-status="progress">
+          <h3>In Progress</h3>
+          <div class="kanban-items" id="kanban-progress"></div>
+        </div>
+        <div class="kanban-col" data-status="done">
+          <h3>Done</h3>
+          <div class="kanban-items" id="kanban-done"></div>
+        </div>
+      </div>
+
+      <!-- Task Modal -->
+      <div id="task-modal" class="modal hidden">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 id="task-modal-title">New Task</h3>
+            <button class="modal-close">&times;</button>
+          </div>
+          <form id="task-form">
+            <label>Task Description
+              <input type="text" id="task-desc" required placeholder="e.g., Call list of 50 voters in District 5">
+            </label>
+            <label>Channel
+              <select id="task-channel">
+                <option value="email">Email</option>
+                <option value="sms">SMS</option>
+                <option value="social">Social Media</option>
+                <option value="phone">Phone</option>
+              </select>
+            </label>
+            <label>Campaign
+              <select id="task-campaign">
+                <option value="">— None —</option>
+              </select>
+            </label>
+            <label>Assign To
+              <select id="task-volunteer">
+                <option value="">— Unassigned —</option>
+              </select>
+            </label>
+            <label>Status
+              <select id="task-status">
+                <option value="todo">To Do</option>
+                <option value="progress">In Progress</option>
+                <option value="done">Done</option>
+              </select>
+            </label>
+            <div class="form-actions">
+              <button type="button" class="btn-secondary modal-close">Cancel</button>
+              <button type="submit" class="btn-primary">Save Task</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEMPLATES -->
+    <section id="templates" class="section">
+      <div class="section-header">
+        <h2>Message Templates</h2>
+      </div>
+      <div class="template-tabs">
+        <button class="template-tab active" data-channel="email">Email</button>
+        <button class="template-tab" data-channel="sms">SMS</button>
+        <button class="template-tab" data-channel="social">Social Media</button>
+        <button class="template-tab" data-channel="phone">Phone Script</button>
+      </div>
+      <div id="template-content" class="template-content">
+        <div class="template-card" data-channel="email">
+          <h4>Voter Outreach Email</h4>
+          <pre>Subject: Your Voice Matters — [CAMPAIGN NAME]
+
+Hi [NAME],
+
+My name is [VOLUNTEER NAME] and I'm reaching out from [ORGANIZATION]. We're working on [CAMPAIGN DESCRIPTION] and we need your support.
+
+Here's what you can do:
+1. [ACTION ITEM 1]
+2. [ACTION ITEM 2]
+3. Share this message with your neighbors
+
+Together, we can make a difference. Reply to this email or call us at [PHONE] with questions.
+
+In solidarity,
+[VOLUNTEER NAME]</pre>
+          <button class="btn-secondary copy-btn" data-target="email">Copy Template</button>
+        </div>
+        <div class="template-card hidden" data-channel="sms">
+          <h4>SMS Outreach</h4>
+          <pre>Hi [NAME]! This is [VOLUNTEER NAME] from [ORGANIZATION]. We're organizing around [CAMPAIGN] in your community. Can we count on your support? Reply YES to learn more or STOP to opt out.</pre>
+          <button class="btn-secondary copy-btn" data-target="sms">Copy Template</button>
+        </div>
+        <div class="template-card hidden" data-channel="social">
+          <h4>Social Media Post</h4>
+          <pre>🔥 [CAMPAIGN NAME] needs YOU!
+
+[CAMPAIGN DESCRIPTION in 1-2 sentences]
+
+Here's how to take action:
+→ [ACTION 1]
+→ [ACTION 2]
+→ Share this post
+
+Every voice counts. Let's build power together. 💪
+
+#[HASHTAG] #CommunityAction #[LOCATION]</pre>
+          <button class="btn-secondary copy-btn" data-target="social">Copy Template</button>
+        </div>
+        <div class="template-card hidden" data-channel="phone">
+          <h4>Phone Bank Script</h4>
+          <pre>INTRO: "Hi, is this [NAME]? My name is [VOLUNTEER NAME], and I'm calling from [ORGANIZATION]."
+
+IF YES: "Great! I'm reaching out because [CAMPAIGN DESCRIPTION]. Do you have a minute to chat?"
+
+IF INTERESTED: "Wonderful. Here's what we're asking community members to do:
+  1. [ACTION ITEM 1]
+  2. [ACTION ITEM 2]
+  Can we count on you?"
+
+IF NOT INTERESTED: "I understand, thank you for your time. Have a great day."
+
+CLOSE: "Thank you so much, [NAME]. We'll follow up with more details by [METHOD]. Take care!"</pre>
+          <button class="btn-secondary copy-btn" data-target="phone">Copy Template</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Outreach HQ — Built for organizers, by organizers.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
