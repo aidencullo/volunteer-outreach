@@ -3,81 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Outreach HQ</title>
+  <title>Outreach HQ — Protest Marketplace</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: system-ui, sans-serif; max-width: 600px; margin: 0 auto; padding: 2rem 1rem; }
-    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-    .sub { color: #888; font-size: 0.85rem; margin-bottom: 2rem; }
-    form { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 2rem; }
-    input, select { padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; }
-    button { padding: 0.5rem 1rem; background: #e63946; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9rem; }
-    button:hover { background: #c1121f; }
-    .task { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem; border-bottom: 1px solid #eee; }
-    .task.done { opacity: 0.4; text-decoration: line-through; }
-    .task input[type="checkbox"] { width: 18px; height: 18px; }
-    .task .info { flex: 1; }
-    .task .channel { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; background: #eee; padding: 0.1rem 0.4rem; border-radius: 3px; }
-    .task .who { color: #888; font-size: 0.8rem; }
-    .task .del { background: none; color: #ccc; padding: 0; font-size: 1.2rem; }
-    .task .del:hover { color: #e63946; background: none; }
-    .empty { color: #aaa; font-style: italic; padding: 1rem 0; }
+    body { font-family: system-ui, sans-serif; max-width: 700px; margin: 0 auto; padding: 2rem 1rem; background: #fafafa; }
+    h1 { font-size: 1.6rem; }
+    .sub { color: #888; font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .badge { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 3px; background: #e63946; color: white; }
+    .event { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.25rem; margin-bottom: 1rem; }
+    .event h3 { font-size: 1.1rem; margin-bottom: 0.4rem; }
+    .event .meta { font-size: 0.8rem; color: #888; margin-bottom: 0.5rem; }
+    .event p { font-size: 0.9rem; color: #444; margin-bottom: 0.75rem; line-height: 1.5; }
+    .event button { padding: 0.4rem 1rem; background: #e63946; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+    .event button:hover { background: #c1121f; }
+    .event button.joined { background: #2a9d8f; cursor: default; }
+    .agent-note { background: #f0f0f0; border-radius: 8px; padding: 1rem; font-size: 0.8rem; color: #666; margin-bottom: 1.5rem; line-height: 1.5; }
+    .empty { color: #aaa; font-style: italic; padding: 2rem 0; text-align: center; }
   </style>
 </head>
 <body>
   <h1>Outreach HQ</h1>
-  <p class="sub">Add outreach tasks, assign volunteers, check them off.</p>
-
-  <form id="form">
-    <input type="text" id="what" placeholder="Task (e.g., Call voters in District 5)" required>
-    <input type="text" id="who" placeholder="Volunteer name">
-    <select id="channel">
-      <option value="phone">Phone</option>
-      <option value="email">Email</option>
-      <option value="sms">SMS</option>
-      <option value="social">Social</option>
-    </select>
-    <button type="submit">Add Task</button>
-  </form>
-
-  <div id="list"></div>
+  <p class="sub">AI-generated protest events. New events appear automatically.</p>
+  <div class="agent-note">An AI agent reviews current issues and generates new protest events on a regular schedule. Events below are created and maintained by the agent.</div>
+  <div id="events"><p class="empty">Loading events...</p></div>
 
   <script>
-    const tasks = JSON.parse(localStorage.getItem('ohq') || '[]');
+    const joined = JSON.parse(localStorage.getItem('ohq-joined') || '{}');
 
-    function save() { localStorage.setItem('ohq', JSON.stringify(tasks)); }
-
-    function render() {
-      const el = document.getElementById('list');
-      if (!tasks.length) { el.innerHTML = '<p class="empty">No tasks yet.</p>'; return; }
-      el.innerHTML = tasks.map((t, i) => `
-        <div class="task ${t.done ? 'done' : ''}">
-          <input type="checkbox" ${t.done ? 'checked' : ''} onchange="toggle(${i})">
-          <div class="info">
-            <div>${t.what}</div>
-            <span class="who">${t.who || 'Unassigned'}</span>
+    fetch('events.json')
+      .then(r => r.json())
+      .then(events => {
+        const el = document.getElementById('events');
+        if (!events.length) { el.innerHTML = '<p class="empty">No events yet.</p>'; return; }
+        el.innerHTML = events.map(e => `
+          <div class="event">
+            <span class="badge">${e.cause}</span>
+            <h3>${e.title}</h3>
+            <div class="meta">${e.date} at ${e.time} &middot; ${e.location}</div>
+            <p>${e.description}</p>
+            <button ${joined[e.id] ? 'class="joined" disabled' : `onclick="join(this,${e.id})"`}>
+              ${joined[e.id] ? 'Joined' : "I'm in"}
+            </button>
           </div>
-          <span class="channel">${t.channel}</span>
-          <button class="del" onclick="del(${i})">&times;</button>
-        </div>
-      `).join('');
-    }
-
-    document.getElementById('form').onsubmit = (e) => {
-      e.preventDefault();
-      tasks.push({
-        what: document.getElementById('what').value.trim(),
-        who: document.getElementById('who').value.trim(),
-        channel: document.getElementById('channel').value,
-        done: false
+        `).join('');
       });
-      save(); render(); e.target.reset();
+
+    window.join = (btn, id) => {
+      joined[id] = true;
+      localStorage.setItem('ohq-joined', JSON.stringify(joined));
+      btn.textContent = 'Joined';
+      btn.className = 'joined';
+      btn.disabled = true;
     };
-
-    window.toggle = (i) => { tasks[i].done = !tasks[i].done; save(); render(); };
-    window.del = (i) => { tasks.splice(i, 1); save(); render(); };
-
-    render();
   </script>
 </body>
 </html>

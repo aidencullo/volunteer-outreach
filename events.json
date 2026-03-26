@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "March for Housing Justice",
+    "cause": "housing",
+    "location": "City Hall, Chicago IL",
+    "date": "2026-04-05",
+    "time": "12:00 PM",
+    "description": "Demand affordable housing and an end to predatory evictions. Bring signs and water.",
+    "attendees": 0
+  },
+  {
+    "id": 2,
+    "title": "Climate Strike: Fossil Fuel Divestment",
+    "cause": "climate",
+    "location": "Federal Plaza, Chicago IL",
+    "date": "2026-04-12",
+    "time": "10:00 AM",
+    "description": "Pressure city pension funds to divest from fossil fuels. Student and worker solidarity.",
+    "attendees": 0
+  },
+  {
+    "id": 3,
+    "title": "Healthcare is a Right Rally",
+    "cause": "healthcare",
+    "location": "Daley Center, Chicago IL",
+    "date": "2026-04-19",
+    "time": "1:00 PM",
+    "description": "Rally for universal healthcare coverage. Speakers from nurses union and patient advocates.",
+    "attendees": 0
+  }
+]
