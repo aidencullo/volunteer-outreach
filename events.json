@@ -28,5 +28,25 @@
     "time": "1:00 PM",
     "description": "Rally for universal healthcare coverage. Speakers from nurses union and patient advocates.",
     "attendees": 0
+  },
+  {
+    "id": 4,
+    "title": "Workers United: Fight for Fair Wages",
+    "cause": "labor",
+    "location": "Foley Square, New York NY",
+    "date": "2026-04-09",
+    "time": "11:00 AM",
+    "description": "Join unions and worker advocates demanding a living wage and overtime protections. Bring your union gear and be ready to march to City Hall.",
+    "attendees": 0
+  },
+  {
+    "id": 5,
+    "title": "Protect the Vote: Voting Rights March",
+    "cause": "voting rights",
+    "location": "Centennial Olympic Park, Atlanta GA",
+    "date": "2026-04-18",
+    "time": "10:00 AM",
+    "description": "March against voter suppression laws and demand expanded ballot access for all eligible citizens. Wear comfortable shoes for a 1.5-mile route to the State Capitol.",
+    "attendees": 0
   }
 ]
