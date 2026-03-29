@@ -48,5 +48,25 @@
     "time": "10:00 AM",
     "description": "March against voter suppression laws and demand expanded ballot access for all eligible citizens. Wear comfortable shoes for a 1.5-mile route to the State Capitol.",
     "attendees": 0
+  },
+  {
+    "id": 6,
+    "title": "Defend Immigrant Rights Rally",
+    "cause": "immigration",
+    "location": "MacArthur Park, Los Angeles CA",
+    "date": "2026-04-19",
+    "time": "2:00 PM",
+    "description": "Stand in solidarity with immigrant communities against deportations and for a clear path to citizenship. Bring signs and stop by resource tables from local mutual aid organizations.",
+    "attendees": 0
+  },
+  {
+    "id": 7,
+    "title": "Food Justice Now: End Hunger in Our City",
+    "cause": "food justice",
+    "location": "Occidental Square, Seattle WA",
+    "date": "2026-04-26",
+    "time": "11:00 AM",
+    "description": "Demand equitable access to healthy, affordable food in underserved neighborhoods and expanded community garden programs. Bring canned goods to donate and join the march to City Hall.",
+    "attendees": 0
   }
 ]
