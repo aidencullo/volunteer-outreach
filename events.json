@@ -28,5 +28,25 @@
     "time": "1:00 PM",
     "description": "Rally for universal healthcare coverage. Speakers from nurses union and patient advocates.",
     "attendees": 0
+  },
+  {
+    "id": 4,
+    "title": "Workers Rise: Fight for $20 Minimum Wage",
+    "cause": "labor",
+    "location": "Foley Square, New York NY",
+    "date": "2026-04-15",
+    "time": "11:00 AM",
+    "description": "Join fast food, retail, and gig workers demanding a $20 federal minimum wage and the right to organize. Bring your union card or solidarity sign.",
+    "attendees": 0
+  },
+  {
+    "id": 5,
+    "title": "Protect the Vote: Defend Voting Rights March",
+    "cause": "voting rights",
+    "location": "Centennial Olympic Park, Atlanta GA",
+    "date": "2026-04-22",
+    "time": "10:00 AM",
+    "description": "March to the Georgia State Capitol to oppose voter suppression laws and demand automatic voter registration. Wear comfortable shoes for the 1-mile route.",
+    "attendees": 0
   }
 ]
