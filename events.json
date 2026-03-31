@@ -68,5 +68,25 @@
     "time": "11:00 AM",
     "description": "Demand equitable access to healthy, affordable food in underserved neighborhoods and expanded community garden programs. Bring canned goods to donate and join the march to City Hall.",
     "attendees": 0
+  },
+  {
+    "id": 8,
+    "title": "Fund Our Schools: Education Justice Rally",
+    "cause": "education",
+    "location": "Grand Park, Los Angeles CA",
+    "date": "2026-04-18",
+    "time": "10:00 AM",
+    "description": "Demand equitable public school funding, an end to classroom overcrowding, and cancellation of student lunch debt. Bring your students, neighbors, and handmade signs.",
+    "attendees": 0
+  },
+  {
+    "id": 9,
+    "title": "Community Over Cops: Police Accountability March",
+    "cause": "police reform",
+    "location": "Freedom Plaza, Washington DC",
+    "date": "2026-04-25",
+    "time": "1:00 PM",
+    "description": "March on the Department of Justice to demand independent oversight of police, an end to qualified immunity, and reinvestment of police budgets into community programs. Wear comfortable shoes and bring water.",
+    "attendees": 0
   }
 ]
