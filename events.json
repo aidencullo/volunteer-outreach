@@ -48,5 +48,25 @@
     "time": "10:00 AM",
     "description": "March to the Georgia State Capitol to oppose voter suppression laws and demand automatic voter registration. Wear comfortable shoes for the 1-mile route.",
     "attendees": 0
+  },
+  {
+    "id": 6,
+    "title": "Cancel the Debt: Student Loan Justice Rally",
+    "cause": "education",
+    "location": "Lincoln Memorial, Washington DC",
+    "date": "2026-04-18",
+    "time": "11:00 AM",
+    "description": "Demand full cancellation of federal student loan debt and free public college tuition. Bring your loan statements and personal stories to share with lawmakers.",
+    "attendees": 0
+  },
+  {
+    "id": 7,
+    "title": "Feed the Community: End Food Deserts March",
+    "cause": "food justice",
+    "location": "Pershing Square, Los Angeles CA",
+    "date": "2026-04-26",
+    "time": "10:00 AM",
+    "description": "March to demand grocery access, community gardens, and healthy food programs in underserved neighborhoods across LA. Bring canned goods to donate to local food banks along the route.",
+    "attendees": 0
   }
 ]
