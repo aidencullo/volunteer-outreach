@@ -68,5 +68,25 @@
     "time": "10:00 AM",
     "description": "March to demand grocery access, community gardens, and healthy food programs in underserved neighborhoods across LA. Bring canned goods to donate to local food banks along the route.",
     "attendees": 0
+  },
+  {
+    "id": 8,
+    "title": "Families Belong Together: Immigration Rights March",
+    "cause": "immigration",
+    "location": "Westlake Park, Seattle WA",
+    "date": "2026-04-19",
+    "time": "1:00 PM",
+    "description": "Rally against family separation and deportation policies, demanding a clear path to citizenship for undocumented residents. Bring signs in English and Spanish and be prepared to march to the federal courthouse.",
+    "attendees": 0
+  },
+  {
+    "id": 9,
+    "title": "Accountability Now: Police Reform Rally",
+    "cause": "police reform",
+    "location": "Freedom Plaza, Washington DC",
+    "date": "2026-04-25",
+    "time": "12:00 PM",
+    "description": "Demand federal legislation for independent oversight boards, body camera mandates, and an end to qualified immunity. Bring ID, know your rights, and connect with legal observer volunteers on-site.",
+    "attendees": 0
   }
 ]
