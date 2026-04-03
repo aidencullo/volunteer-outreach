@@ -88,5 +88,25 @@
     "time": "12:00 PM",
     "description": "Demand federal legislation for independent oversight boards, body camera mandates, and an end to qualified immunity. Bring ID, know your rights, and connect with legal observer volunteers on-site.",
     "attendees": 0
+  },
+  {
+    "id": 10,
+    "title": "Clean Energy Now: Jobs & Justice March",
+    "cause": "climate",
+    "location": "Civic Center Park, Denver CO",
+    "date": "2026-04-24",
+    "time": "10:00 AM",
+    "description": "Demand a just transition to renewable energy that prioritizes frontline communities and union jobs. Bring signs and join a post-march job fair featuring green energy employers.",
+    "attendees": 0
+  },
+  {
+    "id": 11,
+    "title": "Mental Health Crisis Rally: Fund Care, Not Cuts",
+    "cause": "healthcare",
+    "location": "Cadman Plaza, Brooklyn NY",
+    "date": "2026-04-30",
+    "time": "1:00 PM",
+    "description": "Rally against Medicaid cuts to mental health services and demand fully funded community crisis response teams. Bring a friend and share your story — peer testimonials will be presented to city council members.",
+    "attendees": 0
   }
 ]
