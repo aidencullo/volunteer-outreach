@@ -108,5 +108,25 @@
     "time": "1:00 PM",
     "description": "Rally against Medicaid cuts to mental health services and demand fully funded community crisis response teams. Bring a friend and share your story — peer testimonials will be presented to city council members.",
     "attendees": 0
+  },
+  {
+    "id": 12,
+    "title": "Earth Day Climate Emergency March",
+    "cause": "climate",
+    "location": "Civic Center Park, Denver CO",
+    "date": "2026-04-22",
+    "time": "10:00 AM",
+    "description": "March on Earth Day to demand Colorado accelerate its clean energy transition and halt new oil and gas permits on public lands. Bring reusable water bottles, sunscreen, and handmade signs calling out the top local polluters.",
+    "attendees": 0
+  },
+  {
+    "id": 13,
+    "title": "No More Wage Theft: Workers Justice Rally",
+    "cause": "labor",
+    "location": "Discovery Green, Houston TX",
+    "date": "2026-04-28",
+    "time": "11:00 AM",
+    "description": "Rally to demand enforcement of wage theft laws and stronger protections for oil, construction, and domestic workers across Texas. Wear your work clothes in solidarity and bring documentation of any labor violations to connect with on-site legal advocates.",
+    "attendees": 0
   }
 ]
