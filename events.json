@@ -128,5 +128,25 @@
     "time": "11:00 AM",
     "description": "Rally to demand enforcement of wage theft laws and stronger protections for oil, construction, and domestic workers across Texas. Wear your work clothes in solidarity and bring documentation of any labor violations to connect with on-site legal advocates.",
     "attendees": 0
+  },
+  {
+    "id": 14,
+    "title": "Renters United: End Predatory Rent Hikes",
+    "cause": "housing",
+    "location": "Woodruff Park, Atlanta GA",
+    "date": "2026-04-23",
+    "time": "12:00 PM",
+    "description": "Demand rent stabilization ordinances and expanded tenant protections as Atlanta renters face double-digit annual increases. Bring your lease or a rent hike notice — organizers will compile them for a city council presentation.",
+    "attendees": 0
+  },
+  {
+    "id": 15,
+    "title": "Fund Our Schools: Stop the Cuts March",
+    "cause": "education",
+    "location": "Campus Martius Park, Detroit MI",
+    "date": "2026-05-02",
+    "time": "11:00 AM",
+    "description": "March to demand restored funding for Detroit public schools, opposing cuts to arts, counselors, and special education programs. Teachers, students, and parents should bring report cards and school supply lists to illustrate what underfunding looks like.",
+    "attendees": 0
   }
 ]
