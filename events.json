@@ -148,5 +148,25 @@
     "time": "11:00 AM",
     "description": "March to demand restored funding for Detroit public schools, opposing cuts to arts, counselors, and special education programs. Teachers, students, and parents should bring report cards and school supply lists to illustrate what underfunding looks like.",
     "attendees": 0
+  },
+  {
+    "id": 16,
+    "title": "Seeds of Change: Food Justice March",
+    "cause": "food justice",
+    "location": "Thomas Paine Plaza, Philadelphia PA",
+    "date": "2026-04-24",
+    "time": "11:00 AM",
+    "description": "March to demand an end to food deserts and corporate food monopolies in Philadelphia's low-income neighborhoods. Bring reusable bags and a donation for the community fridge network stationed along the route.",
+    "attendees": 0
+  },
+  {
+    "id": 17,
+    "title": "Every Vote Counts: Voting Rights Rally",
+    "cause": "voting rights",
+    "location": "Pioneer Courthouse Square, Portland OR",
+    "date": "2026-05-01",
+    "time": "12:00 PM",
+    "description": "Rally to oppose restrictive voter ID laws and push for automatic voter registration for all eligible citizens. Bring a friend who isn't registered and connect with on-site volunteers to get them signed up on the spot.",
+    "attendees": 0
   }
 ]
