@@ -168,5 +168,25 @@
     "time": "12:00 PM",
     "description": "Rally to oppose restrictive voter ID laws and push for automatic voter registration for all eligible citizens. Bring a friend who isn't registered and connect with on-site volunteers to get them signed up on the spot.",
     "attendees": 0
+  },
+  {
+    "id": 18,
+    "title": "Sanctuary Cities Stand: Immigration Solidarity March",
+    "cause": "immigration",
+    "location": "Daley Plaza, Chicago IL",
+    "date": "2026-04-28",
+    "time": "10:00 AM",
+    "description": "Rally to defend sanctuary city policies and demand an end to workplace immigration raids that tear apart families and communities. Bring solidarity signs and connect with legal aid volunteers stationed throughout the plaza.",
+    "attendees": 0
+  },
+  {
+    "id": 19,
+    "title": "Justice for All: Police Accountability March",
+    "cause": "police reform",
+    "location": "Memorial Park, Minneapolis MN",
+    "date": "2026-05-03",
+    "time": "1:00 PM",
+    "description": "March to demand civilian oversight boards for police departments and an end to no-knock warrants across Minnesota. Know your rights before you arrive — legal observers and rights pamphlets will be available on-site.",
+    "attendees": 0
   }
 ]
