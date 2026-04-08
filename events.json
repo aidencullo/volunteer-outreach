@@ -188,5 +188,25 @@
     "time": "1:00 PM",
     "description": "March to demand civilian oversight boards for police departments and an end to no-knock warrants across Minnesota. Know your rights before you arrive — legal observers and rights pamphlets will be available on-site.",
     "attendees": 0
+  },
+  {
+    "id": 20,
+    "title": "Gig Workers Deserve More: Benefits & Pay Transparency March",
+    "cause": "labor",
+    "location": "Civic Center Plaza, San Francisco CA",
+    "date": "2026-04-26",
+    "time": "11:00 AM",
+    "description": "March on City Hall to demand basic benefits, fair pay algorithms, and protection against arbitrary deactivation for gig and app-based workers across the Bay Area. Bring a coworker and your latest pay breakdown to show city supervisors the real wage gap.",
+    "attendees": 0
+  },
+  {
+    "id": 21,
+    "title": "Hands Off Medicaid: Stop the Cuts Rally",
+    "cause": "healthcare",
+    "location": "Bayfront Park Amphitheater, Miami FL",
+    "date": "2026-05-02",
+    "time": "10:00 AM",
+    "description": "Demand Congress reverse proposed Medicaid cuts that would strip coverage from millions of low-income Floridians. Bring your insurance card or a handwritten sign with your story — patient testimonials will be livestreamed directly to state legislators.",
+    "attendees": 0
   }
 ]
