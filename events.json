@@ -208,5 +208,25 @@
     "time": "10:00 AM",
     "description": "Demand Congress reverse proposed Medicaid cuts that would strip coverage from millions of low-income Floridians. Bring your insurance card or a handwritten sign with your story — patient testimonials will be livestreamed directly to state legislators.",
     "attendees": 0
+  },
+  {
+    "id": 22,
+    "title": "Defend DACA: No Deportations March",
+    "cause": "immigration",
+    "location": "Cesar Chavez Plaza, Phoenix AZ",
+    "date": "2026-04-24",
+    "time": "11:00 AM",
+    "description": "March to demand permanent protections for DACA recipients and an immediate halt to deportation raids targeting long-term residents. Bring solidarity signs in English and Spanish and connect with on-site immigration attorneys offering free consultations.",
+    "attendees": 0
+  },
+  {
+    "id": 23,
+    "title": "Books Not Bans: Defend Public Education Rally",
+    "cause": "education",
+    "location": "Bicentennial Capitol Mall, Nashville TN",
+    "date": "2026-04-30",
+    "time": "12:00 PM",
+    "description": "Rally against book bans, curriculum censorship, and defunding of public schools across Tennessee. Teachers and students are encouraged to bring a banned book and share why it matters to them.",
+    "attendees": 0
   }
 ]
