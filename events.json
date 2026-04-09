@@ -228,5 +228,25 @@
     "time": "12:00 PM",
     "description": "Rally against book bans, curriculum censorship, and defunding of public schools across Tennessee. Teachers and students are encouraged to bring a banned book and share why it matters to them.",
     "attendees": 0
+  },
+  {
+    "id": 24,
+    "title": "End Qualified Immunity: Police Reform March",
+    "cause": "police reform",
+    "location": "Grand Park, Los Angeles CA",
+    "date": "2026-04-26",
+    "time": "12:00 PM",
+    "description": "March to City Hall demanding an end to qualified immunity and independent civilian oversight of the LAPD. Legal observers will be on-site — know your rights before you arrive and bring photo ID.",
+    "attendees": 0
+  },
+  {
+    "id": 25,
+    "title": "Housing for All: Stop the Eviction Crisis Rally",
+    "cause": "housing",
+    "location": "City Hall Plaza, Boston MA",
+    "date": "2026-05-02",
+    "time": "11:00 AM",
+    "description": "Rally to demand a citywide eviction moratorium and expanded affordable housing development across Greater Boston. Bring your eviction notice or rent hike letter to add to the community wall that organizers will present directly to city councilors.",
+    "attendees": 0
   }
 ]
