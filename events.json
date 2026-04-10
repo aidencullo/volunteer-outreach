@@ -248,5 +248,25 @@
     "time": "11:00 AM",
     "description": "Rally to demand a citywide eviction moratorium and expanded affordable housing development across Greater Boston. Bring your eviction notice or rent hike letter to add to the community wall that organizers will present directly to city councilors.",
     "attendees": 0
+  },
+  {
+    "id": 26,
+    "title": "Feast or Famine: Food Justice March on City Hall",
+    "cause": "food justice",
+    "location": "Jackson Square, New Orleans LA",
+    "date": "2026-05-03",
+    "time": "10:00 AM",
+    "description": "March to demand SNAP benefit expansions, community-owned grocery cooperatives, and urban agriculture funding for New Orleans' most underserved neighborhoods. Bring a bag of shelf-stable food to donate to the Second Harvest Food Bank volunteers stationed at the finish line.",
+    "attendees": 0
+  },
+  {
+    "id": 27,
+    "title": "Count Every Vote: Restore Voting Rights Rally",
+    "cause": "voting rights",
+    "location": "McKeldin Square, Baltimore MD",
+    "date": "2026-05-07",
+    "time": "12:00 PM",
+    "description": "Rally to demand restoration of voting rights for formerly incarcerated citizens and push back against aggressive voter roll purges across Maryland. Bring a neighbor who needs help registering — on-site volunteers will register eligible voters and answer questions about ballot access.",
+    "attendees": 0
   }
 ]
