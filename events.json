@@ -268,5 +268,25 @@
     "time": "12:00 PM",
     "description": "Rally to demand restoration of voting rights for formerly incarcerated citizens and push back against aggressive voter roll purges across Maryland. Bring a neighbor who needs help registering — on-site volunteers will register eligible voters and answer questions about ballot access.",
     "attendees": 0
+  },
+  {
+    "id": 28,
+    "title": "Water, Not Waste: Drought & Climate March",
+    "cause": "climate",
+    "location": "Symphony Park, Las Vegas NV",
+    "date": "2026-04-28",
+    "time": "9:00 AM",
+    "description": "March to demand aggressive water conservation mandates and accelerated solar adoption as the Colorado River faces historic low levels. Bring a refillable water bottle and wear sun protection — the route ends at a community solar demonstration and policy forum.",
+    "attendees": 0
+  },
+  {
+    "id": 29,
+    "title": "Fair Pay for All: End Wage Theft Rally",
+    "cause": "labor",
+    "location": "Republic Square Park, Austin TX",
+    "date": "2026-05-06",
+    "time": "11:00 AM",
+    "description": "Rally to demand stronger wage theft enforcement and expanded labor protections for Austin's fast-growing tech and service workforce. Bring your pay stubs or a solidarity sign and connect with labor attorneys on-site offering free consultations.",
+    "attendees": 0
   }
 ]
