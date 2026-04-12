@@ -288,5 +288,25 @@
     "time": "11:00 AM",
     "description": "Rally to demand stronger wage theft enforcement and expanded labor protections for Austin's fast-growing tech and service workforce. Bring your pay stubs or a solidarity sign and connect with labor attorneys on-site offering free consultations.",
     "attendees": 0
+  },
+  {
+    "id": 30,
+    "title": "Reproductive Healthcare Is Healthcare: Statehouse March",
+    "cause": "healthcare",
+    "location": "Ohio Statehouse, Columbus OH",
+    "date": "2026-05-01",
+    "time": "11:00 AM",
+    "description": "March on the Ohio Statehouse to demand the repeal of abortion restrictions and full restoration of reproductive healthcare access statewide. Bring a sign, wear comfortable shoes for the 2-mile route, and connect with healthcare advocates on-site offering resources and referrals.",
+    "attendees": 0
+  },
+  {
+    "id": 31,
+    "title": "Disclose & Disarm: Police Transparency Rally",
+    "cause": "police reform",
+    "location": "Union Station, Kansas City MO",
+    "date": "2026-05-04",
+    "time": "12:00 PM",
+    "description": "Rally to demand mandatory public disclosure of police use-of-force data and the creation of independent civilian review boards across Missouri. Bring photo ID, know your rights, and connect with legal observer volunteers stationed at the entrance.",
+    "attendees": 0
   }
 ]
