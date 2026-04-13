@@ -308,5 +308,25 @@
     "time": "12:00 PM",
     "description": "Rally to demand mandatory public disclosure of police use-of-force data and the creation of independent civilian review boards across Missouri. Bring photo ID, know your rights, and connect with legal observer volunteers stationed at the entrance.",
     "attendees": 0
+  },
+  {
+    "id": 32,
+    "title": "No More Walls: Border Families Solidarity March",
+    "cause": "immigration",
+    "location": "Balboa Park, San Diego CA",
+    "date": "2026-05-03",
+    "time": "10:00 AM",
+    "description": "March to the San Diego border crossing to demand humane asylum processing and an immediate end to family detention centers. Bring solidarity signs in English and Spanish, comfortable walking shoes, and sunscreen for the 1.5-mile route to the port of entry.",
+    "attendees": 0
+  },
+  {
+    "id": 33,
+    "title": "Every Voice Counts: Voting Rights Rally for Ohio",
+    "cause": "voting rights",
+    "location": "Public Square, Cleveland OH",
+    "date": "2026-05-09",
+    "time": "11:00 AM",
+    "description": "Rally to oppose Ohio's aggressive voter roll purges and restrictive ID requirements that disenfranchise rural, elderly, and minority voters. Bring a neighbor who needs to register — on-site volunteers will assist with same-day registration and absentee ballot requests.",
+    "attendees": 0
   }
 ]
