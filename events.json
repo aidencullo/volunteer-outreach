@@ -248,5 +248,25 @@
     "time": "11:00 AM",
     "description": "Rally to demand a citywide eviction moratorium and expanded affordable housing development across Greater Boston. Bring your eviction notice or rent hike letter to add to the community wall that organizers will present directly to city councilors.",
     "attendees": 0
+  },
+  {
+    "id": 26,
+    "title": "Ballots Over Barriers: Voting Access March",
+    "cause": "voting rights",
+    "location": "Texas State Capitol Grounds, Austin TX",
+    "date": "2026-05-05",
+    "time": "10:00 AM",
+    "description": "March to demand same-day voter registration, expanded early voting hours, and repeal of restrictive ID laws that suppress turnout in communities of color. Bring a friend who isn't registered and connect with on-site voter registration volunteers.",
+    "attendees": 0
+  },
+  {
+    "id": 27,
+    "title": "Grow Our Neighborhoods: Food Sovereignty Rally",
+    "cause": "food justice",
+    "location": "McKeldin Square, Baltimore MD",
+    "date": "2026-05-09",
+    "time": "11:00 AM",
+    "description": "Rally to demand city investment in community-owned grocery stores, urban farms, and WIC expansion in Baltimore's food desert zip codes. Bring fresh produce to donate to the community fridge and hear from local urban farmers and food justice advocates.",
+    "attendees": 0
   }
 ]
