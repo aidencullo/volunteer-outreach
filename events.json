@@ -348,5 +348,25 @@
     "time": "11:00 AM",
     "description": "Rally to demand city investment in community-owned grocery stores, urban farms, and WIC expansion in Baltimore's food desert zip codes. Bring fresh produce to donate to the community fridge and hear from local urban farmers and food justice advocates.",
     "attendees": 0
+  },
+  {
+    "id": 36,
+    "title": "Homes Now: End the Homelessness Crisis Rally",
+    "cause": "housing",
+    "location": "Tom McCall Waterfront Park, Portland OR",
+    "date": "2026-05-06",
+    "time": "12:00 PM",
+    "description": "Rally to demand permanent supportive housing investment and an immediate end to unhoused encampment sweeps without shelter alternatives. Bring warm clothing donations and connect with outreach workers on-site linking residents to housing services.",
+    "attendees": 0
+  },
+  {
+    "id": 37,
+    "title": "Save Our Schools: Oppose Voucher Privatization March",
+    "cause": "education",
+    "location": "Riverfront Plaza, Louisville KY",
+    "date": "2026-05-10",
+    "time": "10:00 AM",
+    "description": "March against school voucher programs that drain public school funding into private institutions and demand restored per-pupil spending across Kentucky. Teachers and parents should bring grade reports and supply lists to show lawmakers exactly what budget cuts look like in the classroom.",
+    "attendees": 0
   }
 ]
