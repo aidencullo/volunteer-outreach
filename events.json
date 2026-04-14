@@ -251,6 +251,86 @@
   },
   {
     "id": 26,
+    "title": "Feast or Famine: Food Justice March on City Hall",
+    "cause": "food justice",
+    "location": "Jackson Square, New Orleans LA",
+    "date": "2026-05-03",
+    "time": "10:00 AM",
+    "description": "March to demand SNAP benefit expansions, community-owned grocery cooperatives, and urban agriculture funding for New Orleans' most underserved neighborhoods. Bring a bag of shelf-stable food to donate to the Second Harvest Food Bank volunteers stationed at the finish line.",
+    "attendees": 0
+  },
+  {
+    "id": 27,
+    "title": "Count Every Vote: Restore Voting Rights Rally",
+    "cause": "voting rights",
+    "location": "McKeldin Square, Baltimore MD",
+    "date": "2026-05-07",
+    "time": "12:00 PM",
+    "description": "Rally to demand restoration of voting rights for formerly incarcerated citizens and push back against aggressive voter roll purges across Maryland. Bring a neighbor who needs help registering — on-site volunteers will register eligible voters and answer questions about ballot access.",
+    "attendees": 0
+  },
+  {
+    "id": 28,
+    "title": "Water, Not Waste: Drought & Climate March",
+    "cause": "climate",
+    "location": "Symphony Park, Las Vegas NV",
+    "date": "2026-04-28",
+    "time": "9:00 AM",
+    "description": "March to demand aggressive water conservation mandates and accelerated solar adoption as the Colorado River faces historic low levels. Bring a refillable water bottle and wear sun protection — the route ends at a community solar demonstration and policy forum.",
+    "attendees": 0
+  },
+  {
+    "id": 29,
+    "title": "Fair Pay for All: End Wage Theft Rally",
+    "cause": "labor",
+    "location": "Republic Square Park, Austin TX",
+    "date": "2026-05-06",
+    "time": "11:00 AM",
+    "description": "Rally to demand stronger wage theft enforcement and expanded labor protections for Austin's fast-growing tech and service workforce. Bring your pay stubs or a solidarity sign and connect with labor attorneys on-site offering free consultations.",
+    "attendees": 0
+  },
+  {
+    "id": 30,
+    "title": "Reproductive Healthcare Is Healthcare: Statehouse March",
+    "cause": "healthcare",
+    "location": "Ohio Statehouse, Columbus OH",
+    "date": "2026-05-01",
+    "time": "11:00 AM",
+    "description": "March on the Ohio Statehouse to demand the repeal of abortion restrictions and full restoration of reproductive healthcare access statewide. Bring a sign, wear comfortable shoes for the 2-mile route, and connect with healthcare advocates on-site offering resources and referrals.",
+    "attendees": 0
+  },
+  {
+    "id": 31,
+    "title": "Disclose & Disarm: Police Transparency Rally",
+    "cause": "police reform",
+    "location": "Union Station, Kansas City MO",
+    "date": "2026-05-04",
+    "time": "12:00 PM",
+    "description": "Rally to demand mandatory public disclosure of police use-of-force data and the creation of independent civilian review boards across Missouri. Bring photo ID, know your rights, and connect with legal observer volunteers stationed at the entrance.",
+    "attendees": 0
+  },
+  {
+    "id": 32,
+    "title": "No More Walls: Border Families Solidarity March",
+    "cause": "immigration",
+    "location": "Balboa Park, San Diego CA",
+    "date": "2026-05-03",
+    "time": "10:00 AM",
+    "description": "March to the San Diego border crossing to demand humane asylum processing and an immediate end to family detention centers. Bring solidarity signs in English and Spanish, comfortable walking shoes, and sunscreen for the 1.5-mile route to the port of entry.",
+    "attendees": 0
+  },
+  {
+    "id": 33,
+    "title": "Every Voice Counts: Voting Rights Rally for Ohio",
+    "cause": "voting rights",
+    "location": "Public Square, Cleveland OH",
+    "date": "2026-05-09",
+    "time": "11:00 AM",
+    "description": "Rally to oppose Ohio's aggressive voter roll purges and restrictive ID requirements that disenfranchise rural, elderly, and minority voters. Bring a neighbor who needs to register — on-site volunteers will assist with same-day registration and absentee ballot requests.",
+    "attendees": 0
+  },
+  {
+    "id": 34,
     "title": "Ballots Over Barriers: Voting Access March",
     "cause": "voting rights",
     "location": "Texas State Capitol Grounds, Austin TX",
@@ -260,10 +340,10 @@
     "attendees": 0
   },
   {
-    "id": 27,
+    "id": 35,
     "title": "Grow Our Neighborhoods: Food Sovereignty Rally",
     "cause": "food justice",
-    "location": "McKeldin Square, Baltimore MD",
+    "location": "Druid Hill Park, Baltimore MD",
     "date": "2026-05-09",
     "time": "11:00 AM",
     "description": "Rally to demand city investment in community-owned grocery stores, urban farms, and WIC expansion in Baltimore's food desert zip codes. Bring fresh produce to donate to the community fridge and hear from local urban farmers and food justice advocates.",
