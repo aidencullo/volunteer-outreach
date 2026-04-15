@@ -368,5 +368,25 @@
     "time": "10:00 AM",
     "description": "March against school voucher programs that drain public school funding into private institutions and demand restored per-pupil spending across Kentucky. Teachers and parents should bring grade reports and supply lists to show lawmakers exactly what budget cuts look like in the classroom.",
     "attendees": 0
+  },
+  {
+    "id": 38,
+    "title": "Breathe Free: Environmental Justice Rally",
+    "cause": "climate",
+    "location": "Marshall Park, Charlotte NC",
+    "date": "2026-05-07",
+    "time": "11:00 AM",
+    "description": "Rally to demand stronger EPA enforcement of air quality standards in Charlotte's frontline communities overburdened by highway pollution and industrial facilities. Bring an air quality mask in solidarity and sign onto the community petition calling for mandatory health impact assessments before any new industrial permits are approved.",
+    "attendees": 0
+  },
+  {
+    "id": 39,
+    "title": "Safe Jobs Now: Worker Safety & OSHA Rights March",
+    "cause": "labor",
+    "location": "Gateway Arch Grounds, St. Louis MO",
+    "date": "2026-05-09",
+    "time": "11:00 AM",
+    "description": "March to demand fully funded OSHA inspections and iron-clad whistleblower protections for workers in Missouri's manufacturing, warehouse, and construction industries. Wear your work clothes in solidarity and bring any safety violation documentation to connect with labor attorneys offering free consultations on-site.",
+    "attendees": 0
   }
 ]
