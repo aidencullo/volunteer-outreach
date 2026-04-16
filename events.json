@@ -388,5 +388,25 @@
     "time": "11:00 AM",
     "description": "March to demand fully funded OSHA inspections and iron-clad whistleblower protections for workers in Missouri's manufacturing, warehouse, and construction industries. Wear your work clothes in solidarity and bring any safety violation documentation to connect with labor attorneys offering free consultations on-site.",
     "attendees": 0
+  },
+  {
+    "id": 40,
+    "title": "Civilian Oversight Now: Police Reform March",
+    "cause": "police reform",
+    "location": "Legislative Plaza, Nashville TN",
+    "date": "2026-05-08",
+    "time": "12:00 PM",
+    "description": "March to the Tennessee State Capitol demanding a statewide civilian oversight board for police departments and mandatory body camera footage release within 72 hours of incidents. Bring photo ID, know your rights, and connect with legal observers stationed at the march entrance.",
+    "attendees": 0
+  },
+  {
+    "id": 41,
+    "title": "Houston Stands with Immigrants: Dignity & Due Process March",
+    "cause": "immigration",
+    "location": "Sam Houston Park, Houston TX",
+    "date": "2026-05-10",
+    "time": "11:00 AM",
+    "description": "Rally to demand an end to workplace immigration raids and access to due process for all detained immigrants in Texas. Bring solidarity signs in English and Spanish and connect with on-site immigration attorneys offering free consultations.",
+    "attendees": 0
   }
 ]
