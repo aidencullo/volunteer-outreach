@@ -428,5 +428,25 @@
     "time": "12:00 PM",
     "description": "Rally against proposed federal Medicaid cuts that would strip coverage from thousands of Pennsylvanians with disabilities and chronic conditions. Bring your insurance card or a written personal health story — advocates will compile testimonials to deliver directly to Pennsylvania's congressional delegation.",
     "attendees": 0
+  },
+  {
+    "id": 44,
+    "title": "Fund Our Future: Public Education Justice Rally",
+    "cause": "education",
+    "location": "Seattle Center, Seattle WA",
+    "date": "2026-05-08",
+    "time": "11:00 AM",
+    "description": "Rally to demand restored state funding for Washington public schools and oppose charter expansion that drains resources from neighborhood classrooms. Teachers, parents, and students should bring school supply receipts to show legislators the true cost of underfunding.",
+    "attendees": 0
+  },
+  {
+    "id": 45,
+    "title": "Home is a Right: Anti-Displacement March",
+    "cause": "housing",
+    "location": "Marcus Garvey Park, New York NY",
+    "date": "2026-05-13",
+    "time": "12:00 PM",
+    "description": "March through Harlem to demand anti-displacement protections and community land trusts to preserve affordable housing as luxury development accelerates across upper Manhattan. Bring your rent history or a displacement notice and connect with tenant rights attorneys offering free consultations along the route.",
+    "attendees": 0
   }
 ]
