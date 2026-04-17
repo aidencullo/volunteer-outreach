@@ -408,5 +408,25 @@
     "time": "11:00 AM",
     "description": "Rally to demand an end to workplace immigration raids and access to due process for all detained immigrants in Texas. Bring solidarity signs in English and Spanish and connect with on-site immigration attorneys offering free consultations.",
     "attendees": 0
+  },
+  {
+    "id": 42,
+    "title": "Grow Food Not Profits: Community Food Access March",
+    "cause": "food justice",
+    "location": "Cesar Chavez Plaza, Sacramento CA",
+    "date": "2026-05-10",
+    "time": "11:00 AM",
+    "description": "March to demand community-owned grocery cooperatives and expanded CalFresh benefits in Sacramento's underserved South Side neighborhoods. Bring a bag of shelf-stable food to donate and connect with local urban farmers fighting to protect community garden land from developers.",
+    "attendees": 0
+  },
+  {
+    "id": 43,
+    "title": "Health Over Profits: Stop Medicaid Cuts March",
+    "cause": "healthcare",
+    "location": "Market Square, Pittsburgh PA",
+    "date": "2026-05-12",
+    "time": "12:00 PM",
+    "description": "Rally against proposed federal Medicaid cuts that would strip coverage from thousands of Pennsylvanians with disabilities and chronic conditions. Bring your insurance card or a written personal health story — advocates will compile testimonials to deliver directly to Pennsylvania's congressional delegation.",
+    "attendees": 0
   }
 ]
